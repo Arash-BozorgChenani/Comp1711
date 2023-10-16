@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 
-    int mark = 37;
+    int mark = 47;
     if (mark == 0)
     {
         printf ("The mark of %d is zero\n", mark);

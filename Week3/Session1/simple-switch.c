@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a;
-    a = 2;
+    a = 0;
     switch (a)
     {
         case 0:     printf ("Option 0 has been selected\n");
