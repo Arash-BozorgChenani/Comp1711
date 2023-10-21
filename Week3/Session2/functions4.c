@@ -1,12 +1,7 @@
 #include <stdio.h>
 
-//float fahr_to_celsius (float f_temp); // Telling the compiler not to panic if they see this soon (a heads-up)
-float fahr_to_celsius (float f_temp)
-{
-    float c_temp;
-    c_temp = (f_temp - 32)/1.8;
-    return c_temp;
-}
+//float fahr_to_kelvin (float f_temp);
+float fahr_to_celsius (float f_temp); // Telling the compiler not to panic if they see this soon (a heads-up)
 
 float fahr_to_kelvin (float f_temp)
 {
@@ -14,6 +9,15 @@ float fahr_to_kelvin (float f_temp)
     k_temp = fahr_to_celsius(f_temp) + 273.15;
     return k_temp;
 }
+
+float fahr_to_celsius (float f_temp)
+{
+    float c_temp;
+    c_temp = (f_temp - 32)/1.8;
+    return c_temp;
+}
+
+
 
 int main () 
 {
