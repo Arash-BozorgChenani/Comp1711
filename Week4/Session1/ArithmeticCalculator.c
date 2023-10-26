@@ -11,7 +11,7 @@
  }
  
  int main() {
- float result = calculate(5, 3, '+');
+ float result = calculate(5, 4, '/');
  printf("The result is %f\n", result);
  return 0;
 }
