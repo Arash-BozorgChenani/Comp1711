@@ -4,12 +4,12 @@ typedef struct {
     char name [20];
     char student_id [11]; // Assuming 10 digits.
     unsigned mark;
-} student;
+} STUDENT;
 
 int main () {
     // Data generated using ChatGPT.
     int number_of_students = 10, i;
-    student students [] = {
+    STUDENT students [] = {
         {"Alice Smith",    "64827593", 67},
         {"Bob Johnson",    "19374650", 89},
         {"Charlie Brown",  "82056914", 76},
