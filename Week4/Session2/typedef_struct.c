@@ -6,6 +6,8 @@ typedef struct {
     unsigned mark;
 } STUDENT;
 
+
+
 int main () {
     // Data generated using ChatGPT.
     int number_of_students = 10, i;
