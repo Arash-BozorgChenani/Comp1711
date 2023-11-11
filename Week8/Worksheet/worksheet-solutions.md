@@ -1,8 +1,16 @@
 # Week8 Exercise
 ## Bronze Level
-### 1. Average of Students Marks: Write a program that creates a [4][5] 2-d array with random marks in the range [0 25]. Each row represents a student, and each column is a task for a coursework (similar to Procedural Programming module). The output needs to display 1) the sum of obtained marks across the 5 tasks for each student by calling a function, 2) the average of total marks among all the students.
-Hint: You can use rand() % 26 and srand(time(NULL)) to generate random marks in the given range.
 
+### 1. Average of Students Marks
+
+Write a program that creates a [4][5] 2-d array with random marks in the range [0 25]. Each row represents a student, and each column is a task for a coursework (similar to the Procedural Programming module). The output needs to display:
+
+1. The sum of obtained marks across the 5 tasks for each student by calling a function.
+2. The average of total marks among all the students.
+
+Hint: You can use `rand() % 26` and `srand(time(NULL))` to generate random marks in the given range.
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
