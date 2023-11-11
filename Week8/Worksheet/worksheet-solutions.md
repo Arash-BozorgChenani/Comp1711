@@ -1,7 +1,7 @@
 # Week8 Exercise
 ## Bronze Level
 
-### 1. Change Dimension: Write a program that initializes a [2][3] 2-d array. Call a function to change its dimensions to [3][2]. Finally, print the arrays both before and after the conversion.
+### 1. Transpose of a Matrix: Write a program that initializes a [2][3] 2-d array. Call a function to transpose the matrix (2-d array). Finally, print the arrays both before and after the conversion.
 
 ```c
 #include <stdio.h>
@@ -49,7 +49,55 @@ int main() {
 }
 ```
 
-### 2. Average of Students Marks
+### 2. Matrix Multiplication: Write a program that call a function to perform matrix multiplication for two matcies A and B with the dimensions [2][3] and [3][2], respectively.
+
+```c
+#include <stdio.h>
+
+// Function to multiply two matrices
+void multiplyMatrices(int A[][3], int B[][2], int result[][2], int rowsA, int colsA, int colsB) {
+    for (int i = 0; i < rowsA; i++) {
+        for (int j = 0; j < colsB; j++) {
+            result[i][j] = 0;
+            for (int k = 0; k < colsA; k++) {
+                result[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+}
+
+// Function to print a matrix
+void printMatrix(int rows, int cols, int matrix[rows][cols]) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%d\t", matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    int matrixA[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    int matrixB[3][2] = {{9, 8}, {6, 5}, {3, 2}};
+    int result[2][2];
+
+    multiplyMatrices(matrixA, matrixB, result, 2, 3, 2);
+
+    printf("Matrix A:\n");
+    printMatrix(2, 3, matrixA);
+
+    printf("\nMatrix B:\n");
+    printMatrix(3, 2, matrixB);
+
+    printf("\nResultant Matrix (A * B):\n");
+    printMatrix(2, 2, result);
+
+    return 0;
+}
+```
+
+## Silver Level
+### 1. Average of Students Marks
 
 Write a program that creates a [4][5] 2-d array with random marks in the range [0 25]. Each row represents a student, and each column is a task for a coursework (similar to the Procedural Programming module). The output needs to display:
 
@@ -113,5 +161,5 @@ int main() {
 }
 ```
 
-## Silver Level
+## Gold Level
 ### 1.
