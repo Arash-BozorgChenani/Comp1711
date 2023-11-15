@@ -18,6 +18,6 @@ int main()
  reading Week[7];
  Week[0].bloodIron=5;
  
- strcpy(Week[0].date,"Example");
+ strcpy(Week[0].date,"12/13");
 
 }
