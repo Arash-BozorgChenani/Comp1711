@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 
 void printArray(int a[][3] ){
@@ -25,3 +26,4 @@ int main() {
   
   return 0;
 }
+```

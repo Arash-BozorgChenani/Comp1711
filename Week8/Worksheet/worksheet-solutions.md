@@ -1,7 +1,9 @@
 # Week8 Exercise
 ## Bronze Level
 
-### 1. Transpose of a Matrix: Write a program that initializes a [2][3] 2-d array. Call a function to transpose the matrix (2-d array). Finally, print the arrays both before and after the conversion.
+### 1. Transpose of a Matrix: 
+
+Write a program that initializes a [2][3] 2-d array. Call a function to transpose the matrix (2-d array). Finally, print the arrays both before and after the conversion.
 
 ```c
 #include <stdio.h>
@@ -49,7 +51,9 @@ int main() {
 }
 ```
 
-### 2. Matrix Multiplication: Write a program that call a function to perform matrix multiplication for two matcies A and B with the dimensions [2][3] and [3][2], respectively.
+### 2. Matrix Multiplication: 
+
+Write a program that call a function to perform matrix multiplication for two matcies A and B with the dimensions [2][3] and [3][2], respectively.
 
 ```c
 #include <stdio.h>

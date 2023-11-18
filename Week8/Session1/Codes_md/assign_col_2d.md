@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 
 void printColumn(int a[][4], int colIndex, int rows, char when) {
@@ -40,3 +41,4 @@ int main() {
 
     return 0;
 }
+```
