@@ -1,4 +1,4 @@
-# Week8 Exercise
+# Week8 Exercises
 ## Bronze Level
 
 ### 1. Transpose of a Matrix: 
