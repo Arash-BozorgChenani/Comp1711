@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 #define N_STUDENTS 4
 #define N_MODULES 3
@@ -39,3 +40,4 @@ int main() {
 
     return 0;
 }
+```

@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 
 #define ROWS 10
@@ -52,3 +53,4 @@ int main() {
 
     return 0;
 }
+```
