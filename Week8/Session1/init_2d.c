@@ -10,7 +10,8 @@ void printArray(int a[][3] ){
 }
 
 int main() {
-  int array1[2][3] = {{1, 2, 3}, {4, 5, 6}};
+  int array1[2][3] = {{1, 2, 3}, 
+                      {4, 5, 6}};
   printf("Values in array1 by row are:\n");
   printArray(array1);
 
