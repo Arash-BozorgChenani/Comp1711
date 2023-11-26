@@ -36,13 +36,9 @@ int main()
     int m,n;
 
     printf("\nInput the number of columns: = "); 
-
     scanf("%d",&m);
-
     printf("\nInput the number of rows: = "); 
-
     scanf("%d",&n);
-
     printf("\n");
     
     // Create the 2-dimensional array
@@ -52,15 +48,12 @@ int main()
         Matrix[i] = (int *) malloc (sizeof(int) * n);
 
     // Access the created 2-dimensional array
-
     access_2D(Matrix,m,n);
 
     // Print the 2-dimensional array
-
     print_2D(Matrix,m,n); 
 
     // Free Matrix
-
     free_Matrix(Matrix, m);
 
     return (0);
