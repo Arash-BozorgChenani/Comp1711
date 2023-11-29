@@ -7,7 +7,7 @@ int main()
 
     printf ( "\nAddress[0] = %d\n", *address);
     printf ( "\nAddress[1] = %d\n", address[1]);
-     printf ( "\nAddress[1] = %d\n", *(address+1));
+    printf ( "\nAddress[1] = %d\n", *(address+1));
     printf ( "\nAddress[2] = %d\n", *(address+2));
 
 }
